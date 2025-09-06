@@ -13,25 +13,25 @@ A modern web-based clinic management system built for the IT329 project.
 ## 🚀 Project Phases
 
 ### 🔹 Phase 1 – *Frontend Prototype*
-✅ Responsive UI (HTML, CSS, JS)  
-✅ Pages: Home, Login, Signup, Patient Dashboard, Doctor Dashboard  
+Responsive UI (HTML, CSS, JS)  
+Pages: Home, Login, Signup, Patient Dashboard, Doctor Dashboard  
 
 ### 🔹 Phase 2 – *Backend (PHP + MySQL)*
-🔑 Secure login & signup with sessions  
-📅 Appointment booking, confirmation, cancellation  
-💊 Prescription management  
+Secure login & signup with sessions  
+Appointment booking, confirmation, cancellation  
+Prescription management  
 
 ### 🔹 Phase 3 – *AJAX Integration*
-⚡ Dynamic appointment confirmation/cancellation  
-🩺 Filter doctors by specialty in real-time  
+Dynamic appointment confirmation/cancellation  
+Filter doctors by specialty in real-time  
 
 ---
 
 ## 🛠️ Tech Stack
-- 🌐 **Frontend**: HTML5, CSS3, JavaScript  
-- ⚙️ **Backend**: PHP 8+  
-- 🗄️ **Database**: MySQL  
-- ⚡ **AJAX**: jQuery  
+-  **Frontend**: HTML5, CSS3, JavaScript  
+-  **Backend**: PHP 
+-  **Database**: MySQL  
+-  **AJAX**: jQuery  
 
 ---
 
