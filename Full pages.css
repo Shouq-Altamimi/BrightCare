@@ -1,0 +1,779 @@
+/*HEADAR*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fc;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 25px;
+    font-weight: bold;
+    color: #34065f;
+}
+.logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: inherit; 
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+
+header{
+
+
+height:60px;
+}
+
+a:any-link{
+    text-decoration: none;
+  }
+  .Log-Out-button {
+    padding: 10px 20px;
+    background-color: #34065f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.Log-Out-button:hover {
+    background-color: #0056b3; 
+    cursor: pointer;
+    text-decoration: underline;
+}
+  /*END HEADAR*/
+/*RANA-------------------------------------------------------------------*/
+#welcome {
+    float: right;
+
+}
+.Rhero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color:  #f0f4ff;
+}
+
+.Rcontent {
+    max-width: 600px;
+}
+
+#welcomm h1 {
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.welcomes {
+    color: #34065f;
+    font-size: 3.5rem;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+.R-image img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+#R-Patient h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+.styled-table th {
+    background-color: #f8f9fc;
+    color: #555;
+}
+
+.styled-table tr:hover {
+    background-color: #f1f5ff;
+}
+
+.confirm{
+    padding: 8px 12px;
+    background-color: #34065f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.confirm:hover {
+    background-color:#34065f;
+}
+
+.Rconfirmed {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.prescribe-link {
+    color: #34065f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.prescribe-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.R-container {
+    max-width: 1300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.Doctor-info {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 15px 20px;
+    width:180%;
+   
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    gap: 20px; 
+}
+
+.Doctor-info div {
+    flex: 1 1 200px; 
+    display: flex;
+    justify-content: flex-start; 
+    gap: 20px; 
+}
+.dvalue {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+/*prescribe page */
+main {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+
+textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gender-options,
+.medications-options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button.submit-button {
+    padding: 10px 20px;
+    background-color:#34065f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 20px;
+
+
+}
+
+#sub-r{
+
+    color:#e3e6f0;
+}
+button.submit-button:hover {
+    background-color: #0056b3; 
+}
+
+
+/*End Rana --------------------------------------------------------*/
+/*FOOTER*/
+
+
+    .footer {
+        background-color: #34065f; 
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 14px;
+        position: relative; 
+        width: 100%;
+        margin-top: 500px; 
+      }
+      
+      
+    #copy {
+color:#ffffff;
+      
+      }
+      .footer a {
+        color: #00bcd4;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+      
+      .footer a:hover {
+        color: #00e5ff;
+      }
+
+    .f-footer{
+        background-color: #34065f; 
+        color: #ffffff;
+        /*padding: 20px 0;
+        bottom: 0px;
+        text-align: center;
+        font-size: 14px;
+        position: fixed; 
+        width: 100%;
+        margin-top: 0px; /* Adds spacing above the footer */
+        text-align: center;
+        padding: 20px 10px;
+        font-size: 14px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      
+      .f-footer a {
+        color: #00bcd4;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+      
+      .f-footer a:hover {
+        color: #00e5ff;
+      }
+    /* END FOOTER*/
+
+    /*Home CSS */
+    .hero {
+        align-items: center;
+        padding: 50px 50px 50px 50px;
+         background-color: #f0f4ff;   
+      }
+      #F{
+        background:#f0f4ff ;
+        padding: 0px 0px 0px 0px;
+      }
+      
+#text-f{
+position: relative;
+Right: 90px;
+}
+      .text-content {
+        position: absolute; 
+        top: 80px; 
+        left: 40px; 
+        max-width: 50%; 
+        color: #34065f;
+      }
+
+      .text-content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+      
+      .text-content p {
+        font-size: 1.2rem;
+        color: #34065f;
+      }
+
+      .image-content {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 100%;
+      }
+      .image-content img {
+        max-width: 500px;
+        height: auto;
+        position: relative;
+        left: 20%;
+      }
+
+      .boxes {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+        margin: -400px auto;
+        padding-left: 15px;
+        width: 100%;
+        background-color: transparent;
+      }
+
+
+    .box {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px 30px;
+        text-align: center;
+        width: 400px; /* Fixed width for consistent box size */
+    }
+
+    .box h2 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 10px;
+      }
+      
+      .box p {
+        color: #555;
+        margin-bottom: 20px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        background-color:  #34065f;
+        border-radius: 5px;
+        transition: 0.3s ease;
+      }
+      
+      .btn:hover {
+        background-color: #0056b3;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: #0056b3;
+        cursor: pointer;
+      }
+      .login-box {
+        background-color: #ffffff;
+      }
+      
+      .join-box {
+        background-color:  #ffffff;
+      }
+      a:any-link{
+      text-decoration-line: none;
+      cursor: auto;
+      }
+      /*end of home page*/
+
+      /*login css*/
+      .login-container {
+        background: #fff;
+        padding: 50px 0px 50px 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px; 
+        margin: 150px auto;
+        display: flex;
+        align-items: center; 
+        gap: 20px;
+      }
+      
+      
+      .login-content {
+        flex: 1; 
+      }
+      
+      .login-container h2 {
+          margin-bottom: 20px;
+          font-size: 1.8rem;
+          text-align: center;
+          color:#34065f;
+      }
+      
+      .login-container form {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+      }
+      
+      .login-container label {
+          font-weight: bold;
+          margin-bottom: 5px;
+      }
+      
+      .login-container input {
+          padding: 10px;
+          font-size: 1rem;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          outline: none;
+          transition: border-color 0.3s;
+      }
+      
+      .login-container input:focus {
+          border-color: #34065f;
+      }
+      
+      .login-container .btn {
+          background-color: #34065f;
+          color: #fff;
+          padding: 10px;
+          font-size: 1rem;
+          font-weight: bold;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      }
+      
+      .login-container .btn:hover {
+          background-color: #0056b3;
+      }
+      
+      .login-container .links {
+          display: flex;
+          justify-content: space-between;
+          font-size: 0.9rem;
+      }
+      
+      .login-container .links a {
+          color: #34065f;
+          text-decoration: none;
+          transition: color 0.3s ease;
+      }
+      
+      .login-container .links a:hover {
+          color: #0056b3;
+      }
+      .login-photo {
+        flex: 2; 
+        max-width: 200px;
+      }
+      
+      .login-photo img {
+        width: 100%; 
+        border-radius: 10px; 
+        object-fit: cover; 
+      
+      }
+      .role-selection p {
+        font-weight: bold;
+      }
+
+        /************ SHOUQ ***************/
+
+      /*Patient_HomePage*/
+
+      .success {
+        color: green;
+        font-weight: bold;
+        margin: 20px;
+        text-align: center;
+    }
+    
+.WelcomeAndPI {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcomeP h1 {
+    font-size: 2.8rem;
+    text-align: left;
+    color: #34065f;
+}
+
+.welcomeP h1 span {
+    color: #34065f;
+    text-align: left;
+}
+
+
+.patient-info {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f5f8fc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    gap: 20px; 
+}
+
+.patient-info div {
+    flex: 1 1 200px; 
+    display: flex;
+    justify-content: flex-start; 
+    gap: 5px; 
+}
+
+.value {
+    font-size: 1rem;
+    color: black;
+}
+
+strong {
+    color: #34065f;
+    font-weight: bold;
+}
+
+.appointment {
+	text-align:center;
+	max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#book {
+    font-size: 14px; 
+    padding: 8px 12px; 
+    background-color: #34065f; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    border: none; 
+	float: right;
+}
+
+#book:hover {
+    background-color: #0056b3; 
+    cursor: pointer;
+    text-decoration: underline;
+}
+.appointment .cancel {
+    color: #34065f;
+	text-decoration: none;
+	
+}
+
+.appointment .cancel:hover {
+text-decoration: underline;
+cursor: pointer;	
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+table td {
+    color:black;
+}
+
+table th {
+    background-color: #f5f8fc;
+    color: #34065f;
+    font-weight: bold;
+	font-size: 1rem;
+}
+
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #34065f;
+}
+
+#Pen
+{
+	color: red;
+	
+}
+
+#Confirm
+{
+	color: green;
+	font-weight:bold;
+}
+
+/* Appointment Booking Page */
+
+.bookApp {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    color: #34065f; 
+    margin: 25px 0;
+}
+
+.form-container {
+    max-width: 60%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    border-left: 5px solid #34065f; 
+}
+
+.form-label {
+    margin-bottom: 3px;
+}
+
+form select, 
+form input[type="date"], 
+form input[type="time"], 
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f4f7fc;
+    display: block;
+}
+
+
+form textarea {
+    resize: none;
+    height: 50px;
+}
+
+.submit-btn {
+    background-color: #34065f; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; 
+    cursor: pointer;
+}
+
+/********** END SHOUQ ****************/      
+
+
+
+
+
+
+    
+
+    
+    
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="Full pages.css" />
+  <title>Login Page</title>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <a href="index.html">
+        <img src="Images/Logo.png" alt="Logo" />
+        <span>BrightCare</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="login-container">
+    <div class="login-content">
+      <h2>Login</h2>
+
+      <form id="loginForm" action="login.php" method="POST">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required />
+
+        <div class="role-selection">
+          <p>Select Your Role:</p>
+          <label>
+            <input type="radio" name="role" value="patient" required /> Patient
+          </label>
+          <label>
+            <input type="radio" name="role" value="doctor" required /> Doctor
+          </label>
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+
+        <div class="links">
+          <a href="#">Forgot Password?</a>
+          <a href="signup.php">Sign Up</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="login-photo">
+      <img src="Images/labtest.png" alt="login-photo" />
+    </div>
+  </div>
+
+  <div class="footer">
+    <p id="copy">&copy; 2025 BrightCare. All rights reserved.</p>
+    <p>
+      <a href="#about">About Us</a> |
+      <a href="#services">Services</a> |
+      <a href="#contact">Contact</a>
+    </p>
+  </div>
+</body>
+</html>
